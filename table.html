@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+</head>
+
+<body>
+  
+        <h2>Departments</h2>
+        <label>Departments Name</label>
+        <input type="text" id="dname"> <br>
+        <label>Departments Code</label>
+        <input type="text" id="dcode"> <br>
+        <input type="button" value="add" onclick="sub()" id="button">
+        
+        <br><br>
+        
+
+    
+        <h2>User information</h2>
+        <label>Uname</label>
+        <input type="text" id="uname"> <br>
+        <label >Address</label>
+        <input type="text" id="uaddress"> <br>
+       <label for="depart " id="dpart">Depart</label>
+       <select id="listitem"></select><br>
+       <input type="button" value="add" onclick="usub()" id="addbutton">
+       <br><br>
+
+       <table  border="1px solid black">
+        <thead>
+            <tr>
+                <td> Employee Details</td>
+                <td>Department Name</td>
+                <td>Dcode</td>
+                <td>Action</td>
+                
+            </tr>
+        </thead>
+    
+        <tbody id="table"></tbody>
+    
+    </table>
+  
+   
+</body>
+<Script src="table.js"></Script>
+</html>
